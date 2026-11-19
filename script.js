@@ -10,7 +10,7 @@ function showPage() {
     p.classList.toggle('show', match);
     if (match) {
       found = true;
-      const url = p.dataset.bg;
+            const url = 'images/background.jpeg';
       if (url) {
         const img = new Image();
         img.onload = () => (document.body.style.backgroundImage = `url(${url})`);
