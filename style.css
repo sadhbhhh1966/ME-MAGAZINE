@@ -109,23 +109,15 @@ main { padding: 24px; max-width: 1200px; margin: 0 auto; }
   gap: 24px;
 }
 .column {
-  background: rgba(255, 255, 255, 0.6);
-  border: 2px solid var(--ink);
-  padding: 20px;
-  min-height: 520px;
+  background: none;
+  border: none;
+  padding: 0;
 }
-.strip {
-  background: var(--paper);
-  border: 2px solid var(--ink);
-  border-radius: 14px;
-  padding: 10px;
-  min-height: 480px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+.strip-img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
-.strip img { width: 100%; border-radius: 6px; }
-
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
